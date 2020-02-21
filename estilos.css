@@ -1,3 +1,12 @@
 #painel-grupo{
     margin-top: 23px;
 }
+.titulo-depoimentos{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    padding-top: 34px;
+    width: 100%;
+}
