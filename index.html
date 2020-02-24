@@ -118,7 +118,7 @@
     </a>
   </div>
 
-<div class="container">
+<section class="container">
   <h2>Video Institucional</h2>
   <div class="embed-responsive embed-responsive-16by9">
   <iframe width="560" 
@@ -128,7 +128,63 @@
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen></iframe>
   </div>
-</div>
+</section>
+
+<section>
+    <h2>Contato</h2>
+    <p>Entre em contato conosco</p>
+
+    <form action="">
+        <div class="form-group">
+        <label for="contato-name">Nome</label>
+        <input class="form-control" 
+        placeholder="Seu nome" 
+        type="text" 
+        id="contato-name"></input>
+        </div>
+
+    <div class="form-group">
+        <label for="contato-email">E-mail</label>
+        <div class="input-group">
+            <div class="input-group-addon">@</div>
+            <input 
+            placeholder="Seu email"
+            id="contato-email" 
+            type="email" 
+            class="form-control">
+        </div>
+    </div>
+
+    <div class="group-radio">
+    <div class="radio">
+    <label >
+        <input type="radio" checked name="tipo-pessoa">
+        Pessoa Fisica
+    </label>
+    </div>
+
+    <div class="radio">
+        <label >
+            <input type="radio" name="tipo-pessoa">
+            Pessoa Juridica
+        </label>
+    </div>
+</div><!--
+
+    --><select class="contato-select form-control">
+        <option value="" disabled selected> Tipo de situação</option>
+        <option value="casa"> Casa</option>
+        <option value="apartamento"> Apartamento</option>
+        <option value="mansão"> Mansão</option>
+    </select>
+
+    <button class="btn btn-primary" type="submit">Enviar</button>
+
+    </div>
+
+
+    </form>
+</section>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="node_modules/jquery/src/jquery.js"></script>

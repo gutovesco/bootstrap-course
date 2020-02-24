@@ -10,3 +10,16 @@
     padding-top: 34px;
     width: 100%;
 }
+
+.group-radio{
+    width: 50%;
+    display: inline-block;
+}
+.contato-select{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.group-radio .radio:first-child{
+    margin-top: 0;
+}
